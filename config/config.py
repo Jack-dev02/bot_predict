@@ -20,7 +20,7 @@ import os
 
 class Envs:
 	# appId = int("APP_ID") #Debe ir en formato int 
-	appid = int(os.environ.get("APP_ID")) 
+	appId = int(os.environ.get("APP_ID")) 
 	username = urllib.parse.quote_plus("USER_NAME")
 	password = urllib.parse.quote_plus("PASS_KEY")
 	MongoUrl = f"mongodb+srv://{username}:{password}@bot0.qdusz.mongodb.net/"
