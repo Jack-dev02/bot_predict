@@ -1,5 +1,5 @@
 import urllib.parse
-# import os
+import os
 
 # class Envs:
 #     appId = int(os.getenv("APP_ID")) 
@@ -19,18 +19,14 @@ import urllib.parse
 
 
 class Envs:
-	appId = 2042114353 #Debe ir en formato int 
-	apiHash = "c4a260814023dbf32e5f3adaf2799288"
-	username = urllib.parse.quote_plus("jackdev")
-	password = urllib.parse.quote_plus("@Y1i19860207J@[K")
+	# appId = int("APP_ID") #Debe ir en formato int 
+	appid = int(os.environ.get("APP_ID")) 
+	username = urllib.parse.quote_plus("USER_NAME")
+	password = urllib.parse.quote_plus("PASS_KEY")
 	MongoUrl = f"mongodb+srv://{username}:{password}@bot0.qdusz.mongodb.net/"
-	prefix = ['.','/','!', "$", "#", "<", ">", "(", ")"]
 	Owner = "@jack_dev02"
 
 	#Bot-Settings
-	botToken = "6148092069:AAEwJXYus4KMYfLwPyOCVYiuQ9CfSvAd7AE" 
-	botName = 'Ayli'
-	botUsername = "@Aylidevbot"
-	botChannel = "AyliChannel"
+	botToken = "TOKEN_BOT" 
 
 BOT_OWNER_ID = Envs.appId
