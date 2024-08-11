@@ -7,7 +7,6 @@ class Envs:
     username = urllib.parse.quote_plus(os.getenv("USERNAME"))
     password = urllib.parse.quote_plus(os.getenv("PASSWORD"))
     MongoUrl = f"mongodb+srv://{username}:{password}@bot0.qdusz.mongodb.net/"
-    prefix = ['.','/','!', "$", "#", "<", ">", "(", ")"]
     Owner = os.getenv("OWNER")
 
     #Bot-Settings
