@@ -17,6 +17,7 @@ pymongo==4.8.0
 Pyrogram==2.0.106
 PySocks==1.7.1
 python-dateutil==2.9.0.post0
+python-dotenv==1.0.1
 python-telegram-bot==21.4
 pytz==2024.1
 requests==2.32.3
