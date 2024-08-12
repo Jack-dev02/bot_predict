@@ -1,5 +1,6 @@
 import urllib.parse
 import os
+from dotenv import load_dotenv
 
 # class Envs:
 #     appId = int(os.getenv("APP_ID")) 
@@ -16,7 +17,7 @@ import os
 #     botChannel = os.getenv("BOT_CHANNEL")
 
 # BOT_OWNER_ID = Envs.appId
-
+load_dotenv()
 
 class Envs:
 	# appId = int("APP_ID") #Debe ir en formato int 
@@ -27,6 +28,6 @@ class Envs:
 	Owner = "@jack_dev02"
 
 	#Bot-Settings
-	botToken = "TOKEN_BOT" 
+	botToken = os.getenv("BOT_TOKEN") 
 
 BOT_OWNER_ID = Envs.appId
