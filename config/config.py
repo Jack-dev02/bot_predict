@@ -28,7 +28,7 @@ class Envs:
 	Owner = "@jack_dev02"
 
 	#Bot-Settings
-	botToken = "6148092069:AAFEqKJC83lCmruZKTqivkPNVGura4cSsLQ" 
+	botToken = "6148092069:AAEwJXYus4KMYfLwPyOCVYiuQ9CfSvAd7AE" 
 	botName = 'Ayli'
 	botUsername = "@Aylidevbot"
 	botChannel = "AyliChannel"
