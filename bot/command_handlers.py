@@ -109,7 +109,7 @@ Empate:   {prediction_proba[2]:.2%} 🟰
 Porcentaje de goles: {porcentaje_goles_equipo2:.2f}% ⚽
 - - - - - - - - - - - - - - - - - - - - -
 Check by {user_id}
-Dev by - ↯ {Envs.Onwer}"""
+Dev by - ↯ {Envs.Owner}"""
 
         await update.message.reply_text(response_text)
     except IndexError:
