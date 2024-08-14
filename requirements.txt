@@ -2,6 +2,6 @@ joblib
 numpy
 pymongo
 scikit-learn
-telegram
+python-telegram-bot
 pytz
 python-dotenv 
