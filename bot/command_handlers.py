@@ -34,7 +34,6 @@ async def help(update: Update, _: CallbackContext) -> None:
     await update.message.reply_text(help_text)
 
 async def compare(update: Update, _: CallbackContext) -> None:
-
     user_id = update.effective_user.id
     print(f"Usuario {user_id} ha ejecutado el comando /compare")
 
