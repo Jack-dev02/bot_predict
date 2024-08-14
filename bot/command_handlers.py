@@ -26,7 +26,6 @@ async def help(update: Update, _: CallbackContext) -> None:
     /deletedata - Elimina todos los datos de los partidos del modelo
     /getcode - Genera un código de acceso temporal (Solo admin)
     /redeemcode - Redime un código de acceso temporal
-    /ban - Banea a un usuario del bot (Solo admin)
 
     Ejemplo: /compare Barcelona,8,4,3,3;RealMadrid,9,4,3,3
     Ejemplo: /adddata 4,2,1,3,1,2,1
